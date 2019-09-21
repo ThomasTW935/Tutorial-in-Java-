@@ -22,8 +22,8 @@ public class Loop {
 		 * 
 		 */
 		
-		int forLoop = 2;
 		System.out.println("For Loop: ");
+		int forLoop = 2;
 		for(int i = 0; i<5; i++) {
 			forLoop+=i; // forLoop = forLoop + i;
 			System.out.print(forLoop + " ");
@@ -38,8 +38,9 @@ public class Loop {
 		 * }
 		 * 
 		 */
-		int [] forEach = {2,5,3,7,10};
+		
 		System.out.println("For Each: ");
+		int [] forEach = {2,5,3,7,10};
 		for(int num : forEach) {
 			num*=2; // num = num * 2;
 			System.out.print(num + " ");
