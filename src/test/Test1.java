@@ -1,7 +1,35 @@
 package test;
 
 public class Test1 {
+/*
+	 * 1.
+Given:
+ 
+	Strings:  Aparato, Christine, BSIT-601
+	Integer:  31
+	Character:  F
 
+Output:
+	Name: Aparato, Christine
+	Age: 31
+	Gender: F
+	Information Technology
+	BSIT-601
+
+2. Use Loop
+Output:
+	*****     
+
+3. IfElse
+Given:
+Integers: 20, 150
+	Condition: 20<150
+
+Output
+	if true print 20 is less than 150
+	if false print 20 is greater than 150  
+	
+	 */
 	public static void main(String[] args) {
 		String Givenname = "Christine";
 		String Lastname = "Aparato";
