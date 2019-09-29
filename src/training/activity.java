@@ -9,5 +9,7 @@ public class activity {
 				System.out.println(num + " is equal 5");
 			}
 		}
+		
+		String name = "Christine";
 	}
 }
