@@ -1,6 +1,6 @@
-package test;
+package test.basics;
 
-public class Test1 {
+public class Activity1 {
 /*
 	 * 1.
 Given:
