@@ -3,7 +3,7 @@ package review;
 public class Arrays {
 	
 	/*
-	 * Arrays are use to store multiple values in a single variable 
+	 * Arrays are use to store multiple values in a single variable gggg
 	 */
 	
 	public static void main(String[] args) {
