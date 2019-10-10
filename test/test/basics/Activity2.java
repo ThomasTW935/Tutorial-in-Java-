@@ -16,6 +16,24 @@ public class Activity2 {
 	 */
 	
 	public static void main(String[] args) {
+		String name = "Christine Aparato";
+		for(int i = 0; i<5; i++) {
+			//System.out.println(name);	
+		}
+		
+		double num2 = 52.24232;
+		for(int i = 0; i<=10; i++) {
+			System.out.print(num2*i + " ");
+		}
+	
+		System.out.println();
+		
+		double i = 52;
+		while(i < 600) {
+			System.out.print(i + " ");
+			i*=2;
+		}
+		
 
 	}
 
