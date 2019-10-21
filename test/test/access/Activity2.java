@@ -12,7 +12,6 @@ public class Activity2 {
 		System.out.println("What is your Last Name?");
 		Name +=" "+ s.nextLine();
 		sub.print(Name);
-
 	}
 
 }

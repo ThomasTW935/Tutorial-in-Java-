@@ -4,7 +4,7 @@ public class Activity2 {
 
 	/*
 	 * using the three types of loop
-	 * for,while,dowhhile
+	 * for,while,dowhile
 	 * 
 	 * create an int with a value of 2
 	 * loops = 6
