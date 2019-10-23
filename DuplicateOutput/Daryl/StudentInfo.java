@@ -1,4 +1,4 @@
-package daryl;
+package Daryl;
 
 import java.util.Scanner;
 

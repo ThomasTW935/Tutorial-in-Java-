@@ -1,4 +1,4 @@
-package daryl;
+package Daryl;
 
 public class StudentInfoSub {
 	String firstName;
