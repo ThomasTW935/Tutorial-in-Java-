@@ -8,7 +8,8 @@ public class StudentInfo {
 		Scanner s = new Scanner(System.in);
 		StudentInfoSub st = new StudentInfoSub();
 		System.out.println("What is your First Name?");
-		st.setFirstName(s.nextLine());
+		String fName = s.nextLine();
+		st.setFirstName(fName);
 		System.out.println("What is your Middle Initial?");
 		st.setMiddleInitial(s.nextLine());
 		System.out.println("What is your Last Name?");

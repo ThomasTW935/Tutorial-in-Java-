@@ -1,18 +1,18 @@
 package Daryl;
 
 public class StudentInfoSub {
-	String firstName;
-	String middleInitial;
-	String lastName;
-	String gender;
-	int age;
-	long studentID;
+	private String firstName;
+	private String middleInitial;
+	private String lastName;
+	private String gender;
+	private int age;
+	private long studentID;
 	public void printInfo() {
 		String fullName = getLastName()+ ", " + getFirstName() + " " + getMiddleInitial();
 		System.out.println("Name: "+fullName);
 		System.out.println("Gender: "+ gender);
 		System.out.println("Age: "+ age);
-		System.out.println("Student ID: "+ getStudentID());
+		System.out.println("Student ID: "+ studentID);
 	}
 	
 	private String getFirstName() {
