@@ -1,13 +1,12 @@
 package Christine;
 
 import java.util.*;
+
 public class StudentInfo 
 {
 
 	public static void main(String[] args) 
 	{
-
-		
 		{
 			Scanner s = new Scanner(System.in);
 			StudentInfoSub sub = new StudentInfoSub();
@@ -29,15 +28,7 @@ public class StudentInfo
 			System.out.println("Whatis you Student ID?");
 			int Studno = s.nextInt();
 			sub.setStudno(Studno);
-			
-			sub.print();
-			
-			
+			sub.print();			
 		}
-		
-		
-	
-		
 	}
-
 }

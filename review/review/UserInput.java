@@ -1,6 +1,7 @@
 package review;
 
-import java.util.Scanner; //or java.util.*;
+import java.util.Scanner;
+//or java.util.*;
 
 public class UserInput {
 
