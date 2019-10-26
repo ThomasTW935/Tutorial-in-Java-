@@ -15,7 +15,7 @@ public class StudentInfoSub
 		System.out.println("Name:" + fullName);
 		System.out.println("Gender:" + Gender);
 		System.out.println("Age:" + Age);
-		System.out.println("Student ID:"+0+ Studno );
+		System.out.println("Student ID: 0"+ Studno );
 	}
 	
 	public String getFname() {

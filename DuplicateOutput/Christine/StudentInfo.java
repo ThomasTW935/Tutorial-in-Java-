@@ -28,7 +28,8 @@ public class StudentInfo
 			System.out.println("Whatis you Student ID?");
 			int Studno = s.nextInt();
 			sub.setStudno(Studno);
-			sub.print();			
+			
+			sub.print();	
 		}
 	}
 }

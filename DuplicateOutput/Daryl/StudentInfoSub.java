@@ -7,30 +7,27 @@ public class StudentInfoSub {
 	private String gender;
 	private int age;
 	private long studentID;
-	public void printInfo() {
-		String fullName = getLastName()+ ", " + getFirstName() + " " + getMiddleInitial();
-		System.out.println("Name: "+fullName);
-		System.out.println("Gender: "+ gender);
-		System.out.println("Age: "+ age);
-		System.out.println("Student ID: "+ studentID);
-	}
 	
-	private String getFirstName() {
+	public void printInfo(String fullName, String gender, int age, long studentID) {
+		StudentInfoSub2 sub2 = new StudentInfoSub2();
+		sub2.print(fullName, gender, age, studentID);
+	}
+	public String getFirstName() {
 		return firstName;
 	}
-	private String getMiddleInitial() {
+	public String getMiddleInitial() {
 		return middleInitial;
 	}
-	private String getLastName() {
+	public String getLastName() {
 		return lastName;
 	}
-	private String getGender() {
+	public String getGender() {
 		return gender;
 	}
-	private int getAge() {
+	public int getAge() {
 		return age;
 	}
-	private long getStudentID() {
+	public long getStudentID() {
 		return studentID;
 	}
 	public void setFirstName(String firstName) {
