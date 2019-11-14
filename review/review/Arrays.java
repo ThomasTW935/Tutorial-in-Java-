@@ -12,7 +12,7 @@ public class Arrays {
 		
 		// to access the values we need the index.
 		// Syntax: name[index];
-		System.out.println(lastName[1]);
+		System.out.println(lastName[2]);
 		
 		// looping through all the values
 		for(int i = 0; i<lastName.length; i++) {
