@@ -1,4 +1,4 @@
-package Christine;
+package test.basics;
 
 public class Quiz1 {
 
