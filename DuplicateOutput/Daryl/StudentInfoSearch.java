@@ -22,12 +22,6 @@ public class StudentInfoSearch {
 			students[i].setCourse(s.nextLine());
 			System.out.println("Input Student ID.");
 			students[i].setStudentID(s.nextInt());
-			System.out.print("Press q to Quit");
-			boolean quit = s.hasNext("q");
-			if(quit){
-				break;
-			}
-			
 		}
 		
 		
@@ -45,7 +39,6 @@ public class StudentInfoSearch {
 			String fullName = student.getFullName();
 			String firstName = fullName.split(" ")[0]; 
 			String lastName = fullName.split(" ")[1];
-			System.out.println(course);
 			if(input.equals(course)) {
 				student.printInfo();
 			}
